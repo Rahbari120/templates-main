@@ -1,0 +1,115 @@
+@import '../base/vars';
+@import '../base/mixin'; 
+
+* {
+    font-family: $font;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg-black;
+
+    main {
+        max-width: $w-2;
+        background-color: $bg-lite;
+    }
+}
+
+
+
+#section1 {
+    padding: $p-7;
+
+    figure {
+        padding: 0;
+        margin: 0;
+
+        img {
+            max-width: $w-1;
+            display: block;
+        }
+    }
+
+    #lorem1 {
+        padding: 0;
+
+        #title2 {
+            padding: $p-6;
+            margin: $m-1;
+            color: $text-green;
+            font-size: $f-size2;
+            line-height: $line-h2;
+        }
+
+        #download {
+            @include buttons($w-3, $m-3, $border1, $bg-secondry);
+        }
+
+        #download-mobile {
+            @include buttons($w-1, $m-4, $border2, $bg-lite);
+        }
+
+        #paragraph2 {
+            padding: $p-6;
+            margin: $m-2;
+        } 
+
+        #icon1 {
+            color: $text-green;
+            font-size: $f-size1;
+        }
+
+        #icon2 {
+            font-size: $f-size1;
+        }
+
+        #icon3 {
+            font-size: $f-size1;
+            color: $text-blue;
+        }
+    }
+}
+
+.title {
+    padding: $p-6;
+    margin: $m-1;
+    font-size: $f-size3;
+    line-height: $line-h1;
+}
+
+.spans {
+    font-size: $f-size1;
+}
+
+.paragraph {
+    padding: $p-6;
+    margin: $m-2;
+}
+
+#section2 {
+    background-color: $bg-secondry;
+    padding: $p-7;
+
+    figure {
+        padding: 0;
+
+        img {
+            max-width: $w-1;
+            border-radius: $border-r;
+            display: block;
+        }
+    }
+
+    #lorem2 {
+        padding: 0;
+        #title3 {
+            padding: $p-6;
+            margin: $m-1;
+            color: $text-red;
+            font-size: $f-size2;
+            line-height: $line-h2;
+        }
+    }
+}

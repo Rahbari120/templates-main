@@ -1,0 +1,12 @@
+@mixin buttons($with, $margin, $border, $background-color){
+    display: block;
+    padding: $p-button;
+    width: $with;
+    margin: $margin;
+    border: $border;
+    background-color: $background-color;
+    &:hover{
+        background-color: $bg-gray;
+        border: $border2;
+    }
+}
