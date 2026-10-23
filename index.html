@@ -14,6 +14,99 @@
 </head>
 
 <body>
+   <header class="app-header">
+
+        <button class="btn download-btn mobile-download" data-bs-toggle="modal" data-bs-target="#downloadModal">
+            <i class="fa-solid fa-download"></i> Download
+        </button>
+
+        <div id="appCarousel" class="carousel slide">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="https://www.w3schools.com/w3images/app4.jpg" class="app-image" alt="App">
+
+                    <div class="slide-text">
+                        <h1>Take photos with our app</h1>
+                        <hr>
+                        <p>Super simple installation: free of charge</p>
+
+                        <button class="btn download-btn desktop-download p-3" data-bs-toggle="modal"
+                            data-bs-target="#downloadModal">
+                            <i class="fa-solid fa-download"></i> Download
+                            <i class="fa-brands fa-android"></i> Android
+                            <i class="fa-brands fa-apple"></i> Apple
+                            <i class="fa-brands fa-windows"></i>Windows
+                        </button>
+                    </div>
+                    <button class="btn tour-btn" type="button" data-bs-target="#appCarousel" data-bs-slide="next">
+                        Take Tour <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://www.w3schools.com/w3images/app2.jpg" class="app-image" alt="App">
+
+                    <div class="slide-text">
+                        <h1><b>CLICK!</b> Fast and Easy</h1>
+                        <hr>
+                        <p>Choose from thousands of features</p>
+
+                        <button class="btn download-btn desktop-download p-3" data-bs-toggle="modal"
+                            data-bs-target="#downloadModal">
+                            <i class="fa-solid fa-download"></i> Download
+                            <i class="fa-brands fa-android"></i> Android
+                            <i class="fa-brands fa-apple"></i> Apple
+                            <i class="fa-brands fa-windows"></i>Windows
+                        </button>
+                    </div>
+                    <button class="btn tour-btn" type="button" data-bs-target="#appCarousel" data-bs-slide="next">
+                        Take Tour <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://www.w3schools.com/w3images/app3.jpg" class="app-image" alt="App">
+
+                    <div class="slide-text">
+                        <h1>Smart Design</h1>
+                        <hr>
+                        <p>Customize photos as you go</p>
+
+                        <button class="btn download-btn desktop-download p-3" data-bs-toggle="modal"
+                            data-bs-target="#downloadModal">
+                            <i class="fa-solid fa-download"></i> Download
+                            <i class="fa-brands fa-android"></i> Android
+                            <i class="fa-brands fa-apple"></i> Apple
+                            <i class="fa-brands fa-windows"></i>Windows
+                        </button>
+                    </div>
+                    <button class="btn tour-btn" type="button" data-bs-target="#appCarousel" data-bs-slide="next">
+                        Take Tour <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </header>
+
+    <div class="modal fade" id="downloadModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Download App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    This is a demo download button. رکب خوردی که
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 
 
@@ -51,6 +144,122 @@
           voluptatem nulla obcaecati ex quibusdam atque necessitatibus neque at ratione adipisci doloribus.</p>
       </div>
     </article>
+    <section class="Features">
+        <h2>Features</h2>
+        <p>This app is just so lorem ipsum.</p>
+        <div class="icon ">
+            <div class="item">
+                <i class="bi bi-lightning-fill" id="lightning"></i>
+                <p class="p">fast</p>
+            </div>
+
+            <div class="item">
+                <i class="bi bi-heart-fill" id="heart"></i>
+                <p class="p">loved</p>
+            </div>
+
+            <div class="item">
+                <i class="bi bi-camera-fill" id="camera"></i>
+                <p>Clarity</p>
+            </div>
+
+            <div class="item">
+                <i class="bi bi-battery-full" id="power"></i>
+                <p>power</p>
+            </div>
+
+            <div class="item">
+                <i class="bi bi-gem" id="gem"></i>
+                <p>Sharp</p>
+            </div>
+
+            <div class="item">
+                <i class="bi bi-cloud-fill" id="cloud"></i>
+                <p>Cloud</p>
+            </div>
+            <div class="item">
+                <i class="bi bi-globe-americas" id="globe"></i>
+                <p>globe</p>
+            </div>
+            <div class="item">
+                <i class="bi bi-hdd" id="jumbo"></i>
+                <p>Storage</p>
+            </div>
+            <div class="item">
+                <i class="bi bi-person-fill" id="person"></i>
+                <p>Safe</p>
+            </div>
+            <div class="item">
+                <i class="bi bi-shield-shaded" id="shield"></i>
+                <p>Stable</p>
+            </div>
+            <div class="item">
+                <i class="bi bi-wifi" id="wifi"></i>
+                <p>Connected</p>
+            </div>
+            <div class="item">
+                <i class="bi bi-image" id="image"></i>
+                <p>HD</p>
+            </div>
+        </div>
+
+    </section>
+    <div id="Pricing">
+        <h2>Pricing</h2>
+        <p>Choose a pricing plan that fits your needs.</p>
+    </div>
+    <section id="table" class="col-md">
+
+        <div class="pricing-card">
+            <ul class="pricing-features">
+                <li id="pricing-title">Basic</li>
+                <li><b>250 </b> Photos</li>
+                <li> <b>10</b>Features</li>
+                <li> <b>No</b>Ads</li>
+                <li> <b>Office hours</b>Support</li>
+                <li>
+                    <div class="pricing-amount">$25</div>
+                </li>
+            </ul>
+            <div class="button">
+                <button class="pricing-button"> <i class="bi bi-download"></i>Download </button>
+            </div>
+
+        </div>
+        <div class="pricing-card">
+            <ul class="pricing-features">
+                <li id="pricing-titles">Premium</li>
+                <li><b>1000</b> Photos </li>
+                <li> <b>50</b>Features</li>
+                <li> <b>No </b>Ads</li>
+                <li> <b>Endless </b>Support</li>
+                <li>
+                    <div class="pricing-amount">$99</div>
+                </li>
+            </ul>
+
+            <div class="button">
+                <button class="pricing-button"> <i class="bi bi-download"></i>Download</button>
+            </div>
+
+        </div>
+    </section>
+
+
+</main>
+ <footer>
+
+        
+        <div >
+        <i class="bi bi-facebook social"  ></i>
+        <i class="bi bi-instagram social" ></i>
+        <i class="bi bi-snapchat social"  ></i>
+        <i class="bi bi-pinterest social "  ></i>
+        <i class="bi bi-twitter social"  ></i>
+        </div>
+        <p>
+            powered by<a href="https://www.w3schools.com/w3css/default.asp"> w3.css</a> </p>
+    </footer>
   </main>
 
 
