@@ -2,12 +2,14 @@
   font-family: Poppins;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   background-color: #000;
 }
+
 body main {
   max-width: 1500px;
   background-color: #ffffff;
@@ -16,17 +18,21 @@ body main {
 #section1 {
   padding: 64px 0;
 }
+
 #section1 figure {
   padding: 0;
   margin: 0;
 }
+
 #section1 figure img {
   max-width: 100%;
   display: block;
 }
+
 #section1 #lorem1 {
   padding: 0;
 }
+
 #section1 #lorem1 #title2 {
   padding: 0 16px;
   margin: 10px 0;
@@ -34,6 +40,7 @@ body main {
   font-size: 48px;
   line-height: 72px;
 }
+
 #section1 #lorem1 #download {
   display: block;
   padding: 12px 24px;
@@ -42,10 +49,12 @@ body main {
   border: 1px solid #f1f1f1;
   background-color: #f1f1f1;
 }
+
 #section1 #lorem1 #download:hover {
   background-color: #cccccc;
   border: 1px solid #ffffff;
 }
+
 #section1 #lorem1 #download-mobile {
   display: block;
   padding: 12px 24px;
@@ -54,21 +63,26 @@ body main {
   border: 1px solid #ffffff;
   background-color: #ffffff;
 }
+
 #section1 #lorem1 #download-mobile:hover {
   background-color: #cccccc;
   border: 1px solid #ffffff;
 }
+
 #section1 #lorem1 #paragraph2 {
   padding: 0 16px;
   margin: 16px 0;
 }
+
 #section1 #lorem1 #icon1 {
   color: #4caf50;
   font-size: 24px;
 }
+
 #section1 #lorem1 #icon2 {
   font-size: 24px;
 }
+
 #section1 #lorem1 #icon3 {
   font-size: 24px;
   color: #2196f3;
@@ -94,21 +108,26 @@ body main {
   background-color: #f1f1f1;
   padding: 64px 0;
 }
+
 #section2 figure {
   padding: 0;
 }
+
 #section2 figure img {
   max-width: 100%;
   border-radius: 8px;
   display: block;
 }
+
 #section2 #lorem2 {
   padding: 0;
 }
+
 #section2 #lorem2 #title3 {
   padding: 0 16px;
   margin: 10px 0;
   color: #F44336;
   font-size: 48px;
   line-height: 72px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
